@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gallary img{
+width: 100%;
+height: 100%;
+}
+.gallary>img:nth-child(odd){
+ grid-columns: span 2; 
+grid-row: span 3;
+
+}
+.gallary{
+/* grid-template-columns: repeat(3,1); */
+grid-template-columns: repeat(auto-fill,minmax(300px,1fr ));
+background-color: #0c0c0c;
+}

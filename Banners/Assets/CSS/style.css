@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid #000;
+}
+header>nav>img{
+    width: 70px;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+header>nav>ul>button{
+    border: none;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    min-width: 150px;
+}
+header>nav>ul>li:hover{
+    background-color: #000;
+    transition: 0.6s;
+    cursor: pointer;
+}
+header>nav>ul>li:hover a{
+    color: #fff;
+    transition: 0.6s;
+}
